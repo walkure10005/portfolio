@@ -82,7 +82,7 @@ export default function ContactPage() {
       [e.target.name]: e.target.value,
     })
   }
-
+setIsSubmitting(false)
   // const handleSubmit = async (e: React.FormEvent) => {
   //   e.preventDefault()
   //   setIsSubmitting(true)
