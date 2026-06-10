@@ -133,7 +133,7 @@ export default function ContactPage() {
                 From Academia to Application
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Computer Science Engineer and PhD Candidate, specializing in AI, web privacy, and data protection. I am passionate about advancing research in generative AI and privacy-preserving systems, and I am <strong>open for research collaborations</strong> and <strong>freelance projects</strong>.
+                I am passionate about advancing research in generative AI and privacy-preserving systems, and I am <strong>open for research collaborations</strong> and <strong>freelance projects</strong>.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge variant="secondary"><Clock className="w-3 h-3 mr-1" /> 24h Response Time</Badge>
@@ -197,110 +197,7 @@ export default function ContactPage() {
                   </Card>
                 </div>
 
-                <div className="space-y-8">
-                  {/* --- REDESIGNED HIRE ME CARD --- */}
-                  <Card className="overflow-hidden">
-                    <CardHeader className="p-0">
-                      <div className="bg-muted p-4 border-b">
-                        <CardTitle>Professional Profiles</CardTitle>
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-4 space-y-4">
-                      {/* Freelancer Profile */}
-                      <div className="flex items-center gap-4 p-3 rounded-lg border bg-card">
-                        <Image
-                          src="/cedric.png"
-                          alt="Benjamin Miller"
-                          width={60}
-                          height={60}
-                          className="rounded-full border-2 border-primary"
-                        />
-                        <div>
-                          <h4 className="font-bold">Benjamin Miller</h4>
-                          <p className="text-xs text-muted-foreground">Software Developer</p>
-                          <Link href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:underline">
-                            Hire Me on Upwork.com
-                          </Link>
-                        </div>
-                      </div>
-                      {/* Other Links */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        <Button variant="outline" className="w-full justify-start" asChild>
-                          <Link href="" target="_blank" rel="noopener noreferrer">
-                            <Linkedin className="w-4 h-4 mr-2" /> LinkedIn
-                          </Link>
-                        </Button>
-                        <Button variant="outline" className="w-full justify-start" asChild>
-                          <Link href="https://github.com/cedric-pdev" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-2" /> GitHub
-                          </Link>
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Contact Information</CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      {contactMethods.map((method) => (
-                        <div key={method.title} className="flex items-start">
-                          <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-4 ${method.primary ? 'bg-primary text-primary-foreground' : 'bg-muted'}`}>
-                            <method.icon className="w-5 h-5" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold">{method.title}</h4>
-                            {method.action ? (
-                              <Link href={method.action} className="text-sm text-primary hover:underline">{method.value}</Link>
-                            ) : (
-                              <p className="text-sm">{method.value}</p>
-                            )}
-                          </div>
-                        </div>
-                      ))}
-                    </CardContent>
-                  </Card>
 
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Key Expertise</CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      {expertiseAreas.map((service) => (
-                        <div key={service.title} className="flex items-start">
-                          <service.icon className="w-5 h-5 text-primary mr-3 mt-1" />
-                          <div>
-                            <h4 className="font-semibold text-sm">{service.title}</h4>
-                            <p className="text-xs text-muted-foreground">{service.description}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </CardContent>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Current Status</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="space-y-3 text-sm">
-                        <div className="flex items-center justify-between">
-                          <span>Freelance Work</span>
-                          <Badge variant="default" className="text-xs bg-green-600">Available</Badge>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span>Research Collaboration</span>
-                           <Badge variant="default" className="text-xs">Actively Seeking</Badge>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span>Time Zone</span>
-                          <span className="text-muted-foreground">PST (West Sacramento, US)</span>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
               </div>
             </div>
           </div>
@@ -318,9 +215,9 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Do you only work through Freelancer.com?</h3>
+                  <h3 className="font-semibold mb-2">Do you only work through Job Site?</h3>
                   <p className="text-sm text-muted-foreground">
-                    While I have a strong 5-star reputation on Freelancer.com, I am open to direct collaborations and long-term contracts outside the platform.
+                    I am open to direct collaborations and long-term contracts outside the platform.
                   </p>
                 </div>
                 <div>
@@ -329,12 +226,7 @@ export default function ContactPage() {
                     I&apos;m passionate about web privacy, AI technologies, and applying deep learning to solve real-world business problems.
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-semibold mb-2">What kind of research do you focus on as a PhD candidate?</h3>
-                  <p className="text-sm text-muted-foreground">
-                    I focus on AI, generative models, and web privacy, exploring how advanced machine learning techniques can be applied to protect sensitive data, improve user transparency, and develop ethical, privacy-preserving digital systems. My work combines practical experimentation with theoretical insights to create scalable and responsible AI solutions.
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>

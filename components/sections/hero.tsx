@@ -77,8 +77,8 @@ export function HeroSection() {
                             transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
                         >
                             <Button size="lg" asChild className="shadow-lg shadow-primary/20 hover:shadow-primary/40">
-                                <a href="#contact">
-                                    Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
+                                <a href="">
+                                    <ArrowRight className="ml-2" />
                                 </a>
                             </Button>
                         </motion.div>

@@ -16,7 +16,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Benjamin Miller — Software Developer",
   description: "Portfolio of Benjamin Miller, a Software Engineer and Technical Leader with 8+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
-  keywords: ["Software Engineer", "Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Portfolio", "Developer", "Data Scientist", "Research"],
+  keywords: ["Software Developer", "Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Portfolio", "Developer", "Data Scientist", "Research"],
   authors: [{ name: "Benjamin Miller" }],
   creator: "Benjamin Miller",
   metadataBase: new URL("https://cedric-dev.netlify.app/"),

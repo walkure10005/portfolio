@@ -91,21 +91,7 @@ export function CTABand() {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 400 }}
-            >
-              <Button 
-                size="lg" 
-                className="w-full sm:w-auto text-lg font-semibold shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300"
-                asChild
-              >
-                <Link href="/contact">
-                  Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-            </motion.div>
+            
             
             <motion.div
               whileHover={{ scale: 1.05 }}
@@ -134,11 +120,11 @@ export function CTABand() {
           >
             <p className="text-sm text-muted-foreground">
               Have a quick question?{" "}
-              <Link href="mailto:smartdev379@gmail.com" className="text-primary underline hover:text-accent transition-colors">
+              <Link href="mailto:f4818981@gmail.com" className="text-primary underline hover:text-accent transition-colors">
                 Email me directly
               </Link>{" "}
               or connect on{" "}
-              <Link href="https://t.me/peterjdev" className="text-primary underline hover:text-accent transition-colors">
+              <Link href="https://t.me/walkure99999" className="text-primary underline hover:text-accent transition-colors">
                 Telegram
               </Link>.
             </p>
