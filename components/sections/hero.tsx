@@ -81,11 +81,6 @@ export function HeroSection() {
                                     Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
                                 </a>
                             </Button>
-                            <Button size="lg" variant="outline" asChild>
-                                <a href="/resume">
-                                    View Resume <ArrowRight className="ml-2 h-5 w-5" />
-                                </a>
-                            </Button>
                         </motion.div>
                     </motion.div>
 

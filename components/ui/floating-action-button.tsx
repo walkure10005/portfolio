@@ -4,11 +4,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { 
-  MessageCircle, 
-  ArrowUp, 
-  Mail, 
-  Download,
+import {
+  MessageCircle,
+  ArrowUp,
+  Mail,
   ExternalLink,
   Plus,
   X
@@ -29,13 +28,6 @@ const quickActions = [
     href: "mailto:smartdev379@gmail.com",
     color: "bg-green-500 hover:bg-green-600 text-white",
     description: "Send an email"
-  },
-  {
-    icon: Download,
-    label: "Resume",
-    href: "/resume",
-    color: "bg-purple-500 hover:bg-purple-600 text-white",
-    description: "View my resume"
   },
   {
     icon: ExternalLink,

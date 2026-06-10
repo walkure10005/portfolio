@@ -334,11 +334,6 @@ export default function ContactPage() {
                     <Mail className="w-4 h-4 ml-2" />
                   </a>
                 </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="/resume">
-                    View Resume
-                  </a>
-                </Button>
               </div>
             </Card>
           </div>

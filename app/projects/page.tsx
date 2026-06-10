@@ -446,9 +446,6 @@ export default function ProjectsPage() {
               <Button asChild size="lg">
                 <Link href="/contact">Start a Conversation</Link>
               </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link href="/resume">Download Resume</Link>
-              </Button>
             </div>
           </div>
         </section>

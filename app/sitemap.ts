@@ -24,12 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/resume`,
-      lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: 0.6,
-    },
   ]
 
   // Dynamic project pages

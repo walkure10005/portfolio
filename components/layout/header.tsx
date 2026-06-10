@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, ArrowRight } from "lucide-react";
+import { Menu } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
@@ -115,27 +115,6 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <motion.div
-            className="hidden md:block"
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Button 
-              size="sm" 
-              className="bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white border-0 shadow-lg hover:shadow-cyan-400/25 transition-all duration-300"
-              asChild
-            >
-              <Link href="/resume">
-                Resume
-                <ArrowRight className="ml-2 h-3 w-3" />
-              </Link>
-            </Button>
-          </motion.div>
-
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
@@ -190,19 +169,6 @@ export function Header() {
                   ))}
                 </nav>
 
-                {/* Mobile Footer */}
-                <div className="p-6 border-t border-white/10">
-                  <Button 
-                    className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white border-0"
-                    asChild
-                  >
-                    <Link href="/resume">
-                      View Resume
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
-
                 {/* Mobile Navigation */}
                 <nav className="flex-1 p-6 space-y-3">
                   {navItems.map((item, index) => (
@@ -230,18 +196,6 @@ export function Header() {
                   ))}
                 </nav>
 
-                {/* Mobile Footer */}
-                <div className="p-6 border-t border-white/10">
-                  <Button 
-                    className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white border-0"
-                    asChild
-                  >
-                    <Link href="/resume">
-                      View Resume
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
               </div>
             </SheetContent>
           </Sheet>
