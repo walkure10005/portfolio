@@ -19,6 +19,7 @@ import {
   MessageSquare,
   Briefcase,
   Coffee,
+  Github,
 } from 'lucide-react'
 
 const contactMethods = [

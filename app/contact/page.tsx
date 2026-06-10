@@ -10,15 +10,11 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { AnimatedBackground } from '@/components/3d/animated-background'
 import {
-  Mail,
   MapPin,
   Calendar,
   Clock,
   Send,
   CheckCircle,
-  Cloud,
-  ShieldCheck,
-  BrainCircuit,
 } from 'lucide-react'
 
 // Updated with your real information
