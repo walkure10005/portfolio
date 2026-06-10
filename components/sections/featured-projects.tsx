@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bot, Vote, School } from "lucide-react";
+import {Bot, Vote, School } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ProjectCard, ProjectData } from "@/components/ui/project-card";
@@ -108,7 +108,7 @@ export function FeaturedProjects() {
                 >
                     <Button asChild size="lg" className="font-semibold">
                         <Link href="/projects">
-                            View All Projects <ArrowRight className="w-5 h-5 ml-2" />
+                            View All Projects
                         </Link>
                     </Button>
                 </motion.div>

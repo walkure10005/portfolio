@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image' // Import Next.js Image component
+// import Image from 'next/image' // Import Next.js Image component
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -16,23 +16,21 @@ import {
   Clock,
   Send,
   CheckCircle,
-  Github,
-  Linkedin,
   Cloud,
   ShieldCheck,
   BrainCircuit,
 } from 'lucide-react'
 
 // Updated with your real information
-const contactMethods = [
-  {
-    title: 'Email',
-    description: 'Best way to reach me',
-    value: 'smartdev379@gmail.com',
-    icon: Mail,
-    action: 'mailto:smartdev379@gmail.com',
-    primary: true,
-  },
+// const contactMethods = [
+//   {
+//     title: 'Email',
+//     description: 'Best way to reach me',
+//     value: 'smartdev379@gmail.com',
+//     icon: Mail,
+//     action: 'mailto:smartdev379@gmail.com',
+//     primary: true,
+//   },
   // {
   //   title: 'Phone',
   //   description: 'Call for urgent inquiries',
@@ -41,34 +39,34 @@ const contactMethods = [
   //   action: 'tel:+212684233470',
   //   primary: false,
   // },
-  {
-    title: 'Location',
-    description: 'Based in Prague, Czechia',
-    value: 'Available for remote work globally',
-    icon: MapPin,
-    action: null,
-    primary: false,
-  },
-]
+//   {
+//     title: 'Location',
+//     description: 'Based in Prague, Czechia',
+//     value: 'Available for remote work globally',
+//     icon: MapPin,
+//     action: null,
+//     primary: false,
+//   },
+// ]
 
 // Updated with your expertise from your resume
-const expertiseAreas = [
-  {
-    title: 'AI & Generative Models',
-    description: 'Conducting research and developing advanced AI solutions, including Large Language Models (LLMs), NLP, and privacy-preserving machine learning.',
-    icon: BrainCircuit,
-  },
-  {
-    title: 'Web Privacy & Data Protection',
-    description: 'Designing systems to detect and mitigate online privacy risks, including ad detection, tracker analysis, and data protection workflows.',
-    icon: ShieldCheck,
-  },
-  {
-    title: 'Data Engineering & Research Pipelines',
-    description: 'Building scalable, reproducible data pipelines and ETL processes to support advanced AI research and analytics.',
-    icon: Cloud,
-  },
-];
+// const expertiseAreas = [
+//   {
+//     title: 'AI & Generative Models',
+//     description: 'Conducting research and developing advanced AI solutions, including Large Language Models (LLMs), NLP, and privacy-preserving machine learning.',
+//     icon: BrainCircuit,
+//   },
+//   {
+//     title: 'Web Privacy & Data Protection',
+//     description: 'Designing systems to detect and mitigate online privacy risks, including ad detection, tracker analysis, and data protection workflows.',
+//     icon: ShieldCheck,
+//   },
+//   {
+//     title: 'Data Engineering & Research Pipelines',
+//     description: 'Building scalable, reproducible data pipelines and ETL processes to support advanced AI research and analytics.',
+//     icon: Cloud,
+//   },
+// ];
 
 
 export default function ContactPage() {
@@ -89,14 +87,14 @@ export default function ContactPage() {
     })
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    // Here you would integrate a real email sending service (e.g., Resend, SendGrid)
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    setIsSubmitted(true)
-    setIsSubmitting(false)
-  }
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   setIsSubmitting(true)
+  //   // Here you would integrate a real email sending service (e.g., Resend, SendGrid)
+  //   await new Promise(resolve => setTimeout(resolve, 2000))
+  //   setIsSubmitted(true)
+  //   setIsSubmitting(false)
+  // }
 
   if (isSubmitted) {
     return (

@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-import sharp from 'sharp';
 import { readdir, stat } from 'fs/promises';
 import { join } from 'path';
 import { existsSync } from 'fs';
 
 const GALLERY_DIR = './public/gallery';
 const SUPPORTED_FORMATS = ['.jpg', '.jpeg', '.png'];
+let sharp;
 
 async function optimizeImage(imagePath, outputPath, format = 'webp') {
   try {
@@ -61,6 +61,8 @@ async function main() {
       console.log('No images found to optimize');
       return;
     }
+
+    ({ default: sharp } = await import('sharp'));
     
     console.log(`Found ${imageFiles.length} images to optimize\n`);
     
