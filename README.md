@@ -1,6 +1,6 @@
-# Cedric Pansky - Portfolio Website
+# Benjamin Miller - Portfolio Website
 
-A premium, credibility-first portfolio website for Cedric Pansky, Senior Software Engineer with passione to Gen Ai and Machine Learning. Built with Next.js, shadcn/ui, and a custom dark theme to showcase expertise in AI, machine learning, and full-stack development.
+A premium, credibility-first portfolio website for Benjamin Miller, Software Developer with passione to Gen Ai and Machine Learning. Built with Next.js, shadcn/ui, and a custom dark theme to showcase expertise in AI, machine learning, and full-stack development.
 
 ## 🚀 Live Demo
 
@@ -189,4 +189,4 @@ MIT License - feel free to use this template for your own portfolio.
 
 ---
 
-Built with ❤️ by [Cedric Pansky](https://peterflydev.netlify.app)
+Built with ❤️ by [Benjamin Miller](https://peterflydev.netlify.app)

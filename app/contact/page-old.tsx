@@ -51,12 +51,7 @@ const contactMethods = [
 ]
 
 const socialLinks = [
-  {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/cedric-pansky-07bab7396/',
-    icon: Linkedin,
-    description: 'Professional network',
-  },
+
   {
     name: 'GitHub',
     url: 'https://github.com/cedric-pdev',

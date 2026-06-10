@@ -9,7 +9,7 @@ import { ExternalLink, Microscope, Github, Calendar, Clock, Code, Brain, Cpu, Ro
 import { AnimatedBackground } from '@/components/3d/animated-background'
 
 export const metadata: Metadata = {
-  title: 'Projects | Cedric Pansky - Senior Software Engineer',
+  title: 'Projects | Benjamin Miller - Software Developer',
   description: 'Explore my portfolio of AI and full-stack development projects, showcasing innovative solutions and technical excellence.',
 }
 
@@ -270,7 +270,7 @@ export default function ProjectsPage() {
                 My Projects
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                A showcase of innovative solutions, from AI-powered applications to full-stack platforms. Each project represents a unique challenge solved with cutting-edge technology and best practices.
+                Each project represents a unique challenge solved with cutting-edge technology and best practices.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge variant="secondary" className="text-sm">

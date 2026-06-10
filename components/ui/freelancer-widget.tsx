@@ -13,7 +13,7 @@ export function FreelancerWidget() {
         <div className="relative flex-shrink-0">
           <Image
             src="/cedric.png"
-            alt="Cedric Pansky"
+            alt="Benjamin Miller"
             width={80}
             height={80}
             className="rounded-full border-2 border-primary/30"
@@ -30,7 +30,7 @@ export function FreelancerWidget() {
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors underline decoration-primary/50"
               >
-                Cedric Pansky
+                Benjamin Miller
               </a>
             </h3>
             <p className="text-sm text-muted-foreground">

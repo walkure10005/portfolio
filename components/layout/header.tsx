@@ -13,8 +13,6 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   // { href: "/gallery", label: "Gallery" },
-  { href: "/about", label: "About" },
-  { href: "/experience", label: "Experience" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -68,7 +66,7 @@ export function Header() {
                 <div className="relative h-9 w-9 rounded-xl overflow-hidden shadow-lg transition-all duration-300 group-hover:shadow-cyan-400/25 group-hover:shadow-xl">
                   <Image
                     src="/cedric.png"
-                    alt="Cedric Pansky"
+                    alt="Benjamin Miller"
                     fill
                     className="object-cover"
                   />
@@ -77,10 +75,10 @@ export function Header() {
               </div>
               <div className="hidden sm:block">
                 <span className="font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
-                  Cedric Pansky
+                  Benjamin Miller
                 </span>
                 <div className="text-xs text-gray-400 font-mono">
-                  Senior Software Engineer
+                  Software Developer
                 </div>
               </div>
             </Link>
@@ -162,14 +160,14 @@ export function Header() {
                     <div className="relative h-10 w-10 rounded-xl overflow-hidden">
                       <Image
                         src="/cedric.pngs"
-                        alt="Cedric Pansky"
+                        alt="Benjamin Miller"
                         fill
                         className="object-cover"
                       />
                     </div>
                     <div>
-                      <div className="font-semibold text-white">Cedric Pansky</div>
-                      <div className="text-xs text-gray-400 font-mono">Senior Software Engineer</div>
+                      <div className="font-semibold text-white">Benjamin Miller</div>
+                      <div className="text-xs text-gray-400 font-mono">Software Developer</div>
                     </div>
                   </Link>
                 </div>

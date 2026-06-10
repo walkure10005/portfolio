@@ -22,18 +22,17 @@ import {
 } from 'lucide-react'
 
 const personalInfo = {
-  name: 'Cedric Pansky',
-  title: 'Senior Software Engineer',
+  name: 'Benjamin Miller',
+  title: 'Software Developer',
   email: 'smartdev379@gmail.com',
   location: 'West Sacramento, CA',
   website: 'https://cedric-dev.netlify.app/',
   freelancer: 'https://www.upwork.com/freelancers/~01c15dc748e18d8fe4',
-  portfolioAlt: 'http://cedric-dev.netlify.app/',
-  linkedin: 'linkedin.com/in/cedric-pansky-07bab7396',
-  github: 'github.com/cedric-pdev',
+  portfolioAlt: 'http://miller.netlify.app/',
+  github: 'github.com/walkure10005',
 }
 
-const professionalSummary = `Software engineer and technical leader with 15 years of experience, including 6 years driving EdTech innovation. Led cross-functional teams to deliver AI-powered learning platforms, large-scale enterprise solutions, and mobile applications adopted across education and industry. Passionate about mentorship and clean engineering practices, Cedric has guided 20+ junior developers into leadership roles while advancing technology that makes education more intelligent and accessible.`
+const professionalSummary = `8 years of experience, including 2 years driving EdTech innovation. Led cross-functional teams to deliver AI-powered learning platforms, large-scale enterprise solutions, and mobile applications adopted across education and industry. Passionate about mentorship and clean engineering practices, Cedric has guided 20+ junior developers into leadership roles while advancing technology that makes education more intelligent and accessible.`
 
 const experience = [
   {
@@ -139,7 +138,7 @@ const achievements = [
 
 export default function ResumePage() {
   useEffect(() => {
-    document.title = 'Resume | Cedric Pansky - Senior Software Engineer'
+    document.title = 'Resume | Benjamin Miller - Software Developer'
   }, [])
 
   return (
@@ -189,13 +188,13 @@ export default function ResumePage() {
                   <span className="tracking-wide">cedric.dev</span>
                 </Link>
                 <Link
-                  href={`https://${personalInfo.linkedin}`}
+                  href={`https://}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <Linkedin className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">linkedin.com/in/cedric-pansky-2280532</span>
+                  <span className="tracking-wide"></span>
                 </Link>
                 <Link
                   href={`https://${personalInfo.github}`}
@@ -204,7 +203,7 @@ export default function ResumePage() {
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <Github className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">github.com/cedric-pans</span>
+                  <span className="tracking-wide">github.com/walkure10005</span>
                 </Link>
               </div>
 

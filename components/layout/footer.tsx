@@ -30,10 +30,10 @@ export function Footer() {
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent text-accent-foreground font-mono font-bold text-lg">
                 AN
               </div>
-              <span className="font-semibold text-foreground">Cedric Pansky</span>
+              <span className="font-semibold text-foreground">Benjamin Miller</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">
-              Senior Software Engineer building reliable, AI‑powered products for startups and teams worldwide.
+              AI‑powered products for startups and teams worldwide.
             </p>
           </div>
 
@@ -43,12 +43,6 @@ export function Footer() {
             <div className="grid grid-cols-2 gap-2">
               <Link href="/projects" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                 Projects
-              </Link>
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                About
-              </Link>
-              <Link href="/experience" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                Experience
               </Link>
               <Link href="/contact" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                 Contact
@@ -61,13 +55,13 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-foreground">Connect</h3>
             <div className="flex space-x-2">
               <Button variant="outline" size="icon" asChild>
-                <Link href="https://github.com/cedric-pdev" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/walkure10005" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                   <span className="sr-only">GitHub</span>
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="https://www.linkedin.com/in/cedric-pansky-07bab7396/" target="_blank" rel="noopener noreferrer">
+                <Link href="" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
@@ -80,7 +74,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Cedric Pansky. All rights reserved.
+            © {currentYear} Benjamin Miller. All rights reserved.
           </p>
         </div>
       </div>

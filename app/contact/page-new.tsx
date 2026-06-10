@@ -49,24 +49,14 @@ const contactMethods = [
 ]
 
 const socialLinks = [
-  {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/cedric-pansky-07bab7396/',
-    icon: Linkedin,
-    description: 'Professional network',
-  },
+
   {
     name: 'GitHub',
     url: 'https://github.com/cedric-pdev',
     icon: Github,
     description: 'Code repositories',
   },
-  {
-    name: 'Upwork.com',
-    url: 'https://www.upwork.com/freelancers/~01c15dc748e18d8fe4',
-    icon: Briefcase,
-    description: '5.0★ rating with 48+ reviews',
-  },
+
 ]
 
 const services = [

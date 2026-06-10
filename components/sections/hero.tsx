@@ -56,9 +56,9 @@ export function HeroSection() {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
                             >
-                                <span className="block">Hi, I&apos;m Cedric Pansky.</span>
+                                <span className="block">Hi, I&apos;m Benjamin Miller.</span>
                                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-gradient">
-                                    Software Team Leader with 15 years Dev Exp
+                                    Software Developer
                                 </span>
                             </motion.h1>
                             <motion.p
@@ -67,7 +67,7 @@ export function HeroSection() {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
                             >
-                               {"Holding master's in SE & ITS, Specialize in EdTech, AI, and Full-stack dev, Passionate about building intelligent, accessible education platforms."} </motion.p>
+                               {"Holding master's in SE & ITS, Specialize in EdTech, Automation, Passionate about building intelligent, accessible education platforms."} </motion.p>
                         </div>
 
                         <motion.div

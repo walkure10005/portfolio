@@ -23,16 +23,15 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Cedric Pansky",
-            "jobTitle": "Senior Software Engineer",
+            "name": "Benjamin Miller",
+            "jobTitle": "Software Developer",
             "url": "https://cedric-dev.netlify.app/",
             "logo": "https://cedric-dev.netlify.app/logo.png",
             "image": "https://cedric-dev.netlify.app/og-image.jpg",
-            "description": "Portfolio of Cedric Pansky, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.",
+            "description": "Portfolio of Benjamin Miller, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.",
             "email": "mailto:smartdev379@gmail.com",
             "sameAs": [
-              "https://www.linkedin.com/in/cedric-pansky-07bab7396/",
-              "https://github.com/cedric-pdev"
+              "https://github.com/walkure10005"
             ],
             "knowsAbout": [
               "Software Engineering",

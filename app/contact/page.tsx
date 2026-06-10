@@ -128,7 +128,7 @@ export default function ContactPage() {
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge variant="outline" className="mb-4">Senior Software Engineer</Badge>
+              <Badge variant="outline" className="mb-4">Software Developer</Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 From Academia to Application
               </h1>
@@ -210,14 +210,14 @@ export default function ContactPage() {
                       <div className="flex items-center gap-4 p-3 rounded-lg border bg-card">
                         <Image
                           src="/cedric.png"
-                          alt="Cedric Pansky"
+                          alt="Benjamin Miller"
                           width={60}
                           height={60}
                           className="rounded-full border-2 border-primary"
                         />
                         <div>
-                          <h4 className="font-bold">Cedric Pansky</h4>
-                          <p className="text-xs text-muted-foreground">Senior Software Engineer</p>
+                          <h4 className="font-bold">Benjamin Miller</h4>
+                          <p className="text-xs text-muted-foreground">Software Developer</p>
                           <Link href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:underline">
                             Hire Me on Upwork.com
                           </Link>
@@ -226,7 +226,7 @@ export default function ContactPage() {
                       {/* Other Links */}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <Button variant="outline" className="w-full justify-start" asChild>
-                          <Link href="https://www.linkedin.com/in/cedric-pansky-07bab7396/" target="_blank" rel="noopener noreferrer">
+                          <Link href="" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="w-4 h-4 mr-2" /> LinkedIn
                           </Link>
                         </Button>

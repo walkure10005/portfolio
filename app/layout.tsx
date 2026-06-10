@@ -14,32 +14,32 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Cedric Pansky — Senior Software Engineer",
-  description: "Portfolio of Cedric Pansky, a Software Engineer and Technical Leader with 15+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
+  title: "Benjamin Miller — Software Developer",
+  description: "Portfolio of Benjamin Miller, a Software Engineer and Technical Leader with 8+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
   keywords: ["Software Engineer", "Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Portfolio", "Developer", "Data Scientist", "Research"],
-  authors: [{ name: "Cedric Pansky" }],
-  creator: "Cedric Pansky",
+  authors: [{ name: "Benjamin Miller" }],
+  creator: "Benjamin Miller",
   metadataBase: new URL("https://cedric-dev.netlify.app/"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://cedric-dev.netlify.app/",
-    siteName: "Cedric Pansky Portfolio",
-    title: "Cedric Pansky — Senior Software Engineer",
-    description: "Portfolio of Cedric Pansky, a Software Engineer and Technical Leader with 15+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
+    siteName: "Benjamin Miller Portfolio",
+    title: "Benjamin Miller — Software Developer",
+    description: "Portfolio of Benjamin Miller, a Software Engineer and Technical Leader with 8+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Cedric Pansky — Senior Software Engineer",
+        alt: "Benjamin Miller — Software Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cedric Pansky — Senior Software Engineer",
-    description: "Portfolio of Cedric Pansky, a Software Engineer and Technical Leader with 15+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
+    title: "Benjamin Miller — Software Developer",
+    description: "Portfolio of Benjamin Miller, a Software Engineer and Technical Leader with 8+ years of experience specializing in EdTech, AI-powered learning platforms, and full-stack development. Explore my projects, leadership achievements, mentorship work, and collaborations across global teams.",
     images: ["/og-image.jpg"],
   },
   robots: {

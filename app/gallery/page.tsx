@@ -7,7 +7,7 @@ import { Separator } from '@/components/ui/separator'
 import { Camera, MapPin, Calendar, Images } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Gallery | Cedric Pansky',
+  title: 'Gallery | Benjamin Miller',
   description: 'A photo gallery showcasing pictures I take.',
 }
 

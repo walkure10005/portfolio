@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cedric Pansky — Senior Software Engineer',
-  description: 'Portfolio of Cedric Pansky, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+  title: 'Benjamin Miller — Software Developer',
+  description: 'Portfolio of Benjamin Miller, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
   keywords: [
     'AI Architect',
     'Full-Stack Engineer', 
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     'Portfolio',
     'Web Privacy'
   ],
-  authors: [{ name: 'Cedric Pansky', url: 'https://cedric-dev.netlify.app/' }],
-  creator: 'Cedric Pansky',
-  publisher: 'Cedric Pansky',
+  authors: [{ name: 'Benjamin Miller', url: 'https://cedric-dev.netlify.app/' }],
+  creator: 'Benjamin Miller',
+  publisher: 'Benjamin Miller',
   metadataBase: new URL('https://cedric-dev.netlify.app/'),
   alternates: {
     canonical: 'https://cedric-dev.netlify.app/',
@@ -29,25 +29,25 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://cedric-dev.netlify.app/',
-    siteName: 'Cedric Pansky Portfolio',
-    title: 'Cedric Pansky — Senior Software Engineer',
-    description: 'Portfolio of Cedric Pansky, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+    siteName: 'Benjamin Miller Portfolio',
+    title: 'Benjamin Miller — Software Developer',
+    description: 'Portfolio of Benjamin Miller, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
     images: [
       {
         url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Cedric Pansky - Senior Software Engineer',
+        alt: 'Benjamin Miller - Software Developer',
         type: 'image/jpeg',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@cedricpansky',
-    creator: '@cedricpansky',
-    title: 'Cedric Pansky — Senior Software Engineer',
-    description: 'Portfolio of Cedric Pansky, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+    site: '@miller',
+    creator: '@miller',
+    title: 'Benjamin Miller — Software Developer',
+    description: 'Portfolio of Benjamin Miller, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
     images: ['/og-image.jpg'],
   },
   robots: {
