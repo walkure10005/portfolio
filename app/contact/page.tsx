@@ -82,15 +82,14 @@ export default function ContactPage() {
       [e.target.name]: e.target.value,
     })
   }
-setIsSubmitting(false)
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault()
-  //   setIsSubmitting(true)
-  //   // Here you would integrate a real email sending service (e.g., Resend, SendGrid)
-  //   await new Promise(resolve => setTimeout(resolve, 2000))
-  //   setIsSubmitted(true)
-  //   setIsSubmitting(false)
-  // }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    // Here you would integrate a real email sending service (e.g., Resend, SendGrid)
+    await new Promise(resolve => setTimeout(resolve, 2000))
+    setIsSubmitted(true)
+    setIsSubmitting(false)
+  }
 
   if (isSubmitted) {
     return (
@@ -183,7 +182,7 @@ setIsSubmitting(false)
                           {isSubmitting ? (
                             <><div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin mr-2" /> Sending...</>
                           ) : (
-                            <><Send className="w-4 h-4 mr-2" /> Send Message</>
+                            <><Send className="w-4 h-4 mr-2" onClick={handleSubmit} /> Send Message</>
                           )}
                         </Button>
                       </form>
